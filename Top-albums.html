@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta cherset="utf-8" name="viewport" content="width=device-width, inicial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:darkgreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+  font-family:ariel;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1080px;
+  background:lightgreen;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  font-family: sans-serif;
+  padding: 0;
+}
+p {text-align:center;
+ color: black;
+ }
+ol {text-align:left;
+  color :white;
+  }
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1080px;
+  background-color:green;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:darkgreen;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+a:link{
+  color:purple;
+ 
+}
+a:hover{
+  color:pink;
+}
+
+a:visited{
+  color:purple;
+}
+
+img{
+  max-height:100%;
+  max-width:100%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+Cҽʅƚιƈ Wσɱαɳ
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About the Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+  </nav>
+ 
+  <article>
+<h1 style="text-align:center;font-size:30px;color:white;border:7px solid yellow;"> Top Albums</h1>
+<table align="center">
+<tr>
+<tr><th>Believe</th></tr>
+<td><img src="https://th.bing.com/th/id/OIP.-t5bVVSwjlUfF1v8M2NppwAAAA?pid=Api&rs=1" height="200" width="200"/></td>
+<td>
+  <ol>
+<li>Awakening</li>
+<li>Nocturne</li>
+<li>Sailing</li>
+<li>The Foxhunter</li>
+<li>The Water is Wide</li>
+<li>Bridge Over Troubled Water</li>
+<li>Black Is The Colour</li>
+<li>Follow On</li>
+<li>Ave Maria</li>
+<li>Teir Abhaile Riu</li>
+<li>You'll Never Walk Alone</li>
+<li>A Space Man Came Travelling</li>
+<li>Songs From The Heart</li>
+<li>Walking The Night</li>
+<li>The World Falls Away</li>
+<li>A Women's Heart</li>
+<li>The Parting Glass</li>
+  </ol>
+</td>
+</tr>
+
+<tr>
+<tr><th>Ancient Land</th></tr>
+<td><img src="https://www.bing.com/th?id=AMMS_2b40a5a8132e09758e1260c774b9e365&w=120&h=120&c=7&rs=1&qlt=80&cdv=1&dpr=1.5&pid=16.1" height="200" width="200"/></td>
+<td>
+<ol>
+<li>Ancient Land</li>
+<li>Homeland</li>
+<li>Moorlough Shore</li>
+<li>Follow Me</li>
+<li>County Down</li>
+<li>Love & Honour</li>
+<li>Women of Ireland</li>
+<li>Sive</li>
+<li>Shenandoah</li>
+<li>Long Journey Home</li>
+<li>Tara's Tunes</li>
+<li>Ae Fond Kiss</li>
+</ol>
+</td>
+</tr>
+
+<tr>
+<tr><th>Destiny </th></tr>
+<td><img src="https://www.bing.com/th?id=AMMS_539f4449e976ff3904e6817b2994625a&w=120&h=120&c=7&rs=1&qlt=80&cdv=1&dpr=1.5&pid=16.1" height="200" width="200"/></td>
+<td>
+ <ol>
+ <li>My Land</li>
+ <li>Siuil a Run</li>
+ <li>Ride On</li>
+ <li>The Whole of the Moon</li>
+ <li>Skyrim</li>
+ <li>How Can I Keep From Singing</li>
+ <li>I See Fire</li>
+ <li>Tir na nOg</li>
+ <li>Oro Se Do Bheatha Bhaile</li>
+ <li>Somtimes a Prayer Will Do</li>
+ <li>Bean Phaidin</li>
+ <li>Westering Home</li>
+ </ol>
+</td>
+</tr>
+
+</table>
+
+ </article>
+ 
+</section>
+
+<footer>
+  copyright &copy; 2020 Amber Mullins. All rights reserved
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta cherset="utf-8" name="viewport" content="width=device-width, inicial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:darkgreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+  font-family:ariel;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 600px;
+  background:lightgreen;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  font-family: sans-serif;
+  padding: 0;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 600px;
+  background-color:green;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:darkgreen;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+a:link{
+  color:purple;
+ 
+}
+a:hover{
+  color:pink;
+}
+
+a:visited{
+  color:purple;
+}
+
+img{
+  max-height:100%;
+  max-width:100%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5399657.png" width="493" height="91" alt="Celtic Woman" /></a>
+<br />Image by <a href="https://cooltext.com">Cool Text: Logo and Button Generator</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3539492907">Create Your Own Logo</a> >
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About the Band</a></li>
+      <li><a href="#">Top Album</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+  </nav>
+ 
+  <article>
+<img src="https://tillescenter.org/wp-content/uploads/2017/10/CW_WebImage_1200x480_hi1.jpg" alt="celtic women" width="530" height="200">
+ 
+ <p style=color:white;> Celtic woman the Irish female band that debuted in 2005, this band has toured 23 different countries and has become a popular name. Even though the band members have changed over time, Mairéad Carlin and Megan Walsh with their many guest acts, have never let this change the core meaning of the band. which is to show the world the beauty and mistery of the Irish culture, while having a blast.</p>
+ <p style=color:white;> With the artists wonderful mix of wist full classic and edgy sweet modern Irish work, along with wow worthy concerts filled with river-dancing, and full orchestras. It is no wonder why this band is known for their uplifting melody's and heart striking music. </p>
+ <p style=color:white;>Celtic Woman are known for many things, but their most known for the talented guests artists they tour, and produce albums with. Such as Chloë Agnew, Mairéad Carlin, and Éabha McMahon and many more; you may be thinking that with all these guests that the music from this group could become a jumbled mess of different genres. This can happen, but it only makes the harmonies that this band produce's even more elegant and fun. </p>
+ 
+ </article>
+ 
+</section>
+
+<footer>
+  copyright &copy; 2020 Amber Mullins. All rights reserved
+</footer>
+
+</body>
+</html>
+
